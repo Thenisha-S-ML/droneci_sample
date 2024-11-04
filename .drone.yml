@@ -1,0 +1,8 @@
+kind: pipeline
+name: hello-world-pipeline
+
+steps:
+  - name: run-script
+    image: python:3.9  
+    commands:
+      - python hello.py 
